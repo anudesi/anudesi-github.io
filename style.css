@@ -1,0 +1,370 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+nav ul li {
+  display: block;
+  padding: 10px;
+  float: right;
+}
+
+a {
+  color: black;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+/*
+@media screen  and (max-width: 360px) {
+    header{
+        height: 50px;      
+           
+    }
+    nav ul li{
+        display: block;
+        padding: 5px;
+        font-size: 16px;
+       
+        
+    }
+    .container{
+        margin: 10px;
+        height: 400px;
+        background-color: lightcyan;
+    }
+   .profile-container p{
+       height: 100px;
+   }
+  
+   .circle{
+       border-radius: 50%;
+       background-color: khaki;
+       width: 100px;
+       height: 100px;
+       position: relative;
+       top: 60px;not.plz
+   }
+.about-me{
+    background-color: rgb(26, 124, 26);
+    color: white;      
+  
+}
+.about-container{
+    width: 100px;not.plz
+  border-radius: 10px;
+    padding: 10px;
+    position: relative;
+    top: 60px;
+    
+   
+}
+.about-container1{
+    width: 100px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 10px;
+    float: left;
+   
+}
+
+.about-container2{
+    width: 100px;
+    height: 50px;
+    padding: 10px;
+   border-radius: 10px;
+   float: left;
+  
+}
+    .work{
+        background-color: grey;
+        
+       
+    }
+    .project-1{
+        background-color: hotpink;
+        padding: 10px;
+        border: 1px solid blue;
+        border-radius: 10px;
+        height: 200px;
+        margin: 10px;
+        float: left;
+    }
+    .project-2{
+        background-color: red;
+        height: 200px;
+        margin: 10px;
+        border: 1px solid blue;
+        border-radius: 10px;
+        float: left;
+    }
+    .project-3{
+        background-color: green;
+        height: 200px;
+        border: 1px solid blue;
+        border-radius: 10px;
+        margin: 10px;
+        float: left;
+    }
+    .para{
+        height: 200px;
+    }
+    .icons{
+        background-color: khaki;
+    }
+    li{
+        list-style-type: none;
+    }
+}
+@media screen  and (min-width: 768px){
+    header{
+        height: 50px;
+        background-color: gray;
+    
+    }
+   .profile-container{
+      
+    
+   }
+   .profile-container1{
+   
+   
+}
+.about-container{
+    width: 150px;
+    height: 150px;
+   
+   
+}
+.about-container1{
+    width: 150px;
+    height: 150px;
+    
+}
+.about-container2{
+    width: 150px;
+    height: 150px;
+    
+}
+    .work{
+        background-color: grey;
+        height: 400px;
+    }
+    .project-1{
+        background-color: hotpink;
+        height: 200px;
+        width: 100px;
+    }
+    .project-2{
+        background-color: red;
+        height: 200px;
+        width: 100px;
+    }
+    .project-3{
+        background-color: green;
+        height: 200px;
+        width: 100px;
+    }
+    .para{
+        height: 200px;
+    }
+    .icons{
+        background-color: khaki;
+    }
+    li{
+        list-style-type: none;
+    }
+}*/
+header {
+  display: inline-block;
+  width: 100%;
+  position: fixed;
+  top: 0%;
+  height: 100px;  
+}
+
+.logo{
+    position: fixed;
+    top: 20px;
+    left: 20px;
+}
+.main-body {
+  padding: 16px;
+  margin-top: 130px;
+}
+
+.profile-container p {
+  font-size: 2rem;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+.circle {
+  width: 200px;
+  height: 200px;
+  border: 1px solid orange;
+  border-radius: 50%;
+  position: relative;
+  top: 50%;
+  left: 50%;
+}
+
+.profile-container1 {
+  text-align: center;
+
+}
+
+
+.about-me p {
+  background-color: gold;
+  height: 500px;
+  padding: 50px 200px 50px 150px;
+  color: black;
+  font-size: 2rem;
+    margin-top: -50px;
+  text-align: justify;  
+}
+.box {
+  width: 60%;
+  margin-top: -100px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border: 1px solid rgb(238, 227, 227);
+  margin-left: 20%;
+  margin-right: 20%;
+  border-radius: 30px;
+}
+.about-container {
+  width: 50%;
+  height: 600px;
+  padding: 20px;
+}
+
+.about-container1 {
+  border-left: 1px solid rgb(238, 227, 227);
+  width: 50%;
+  height: 600px;
+  padding: 20px;
+}
+.center {
+  text-align: center;
+  padding: 50px;
+}
+h1 {
+  font-size: 2.5rem;
+  font-weight: bolder;
+  text-align: center;
+}
+h2 {
+  font-size: 2rem;
+  padding: 40px;
+  text-align: center;
+  font-weight: lighter;
+}
+h3 {
+  font-size: 1rem;
+  font-weight: 900;
+  padding: 30px;
+  text-align: center;
+}
+h4 {
+  font-size: 1rem;
+  padding: 10px;
+  text-align: center;
+}
+li {
+  text-align: center;
+  list-style-type: none;
+}
+
+.my-projects {
+  text-align: center;
+  position: relative;
+  margin-top: 160px;
+  margin-bottom: 20px;
+}
+.work {
+  display: flex;
+  position: relative;
+  height: 400px;
+  justify-content: center;
+}
+
+.project-1 {
+  width: 400px;
+  height: 200px;
+  margin-left: 20px;
+}
+.project-2 {
+  width: 400px;
+  height: 200px;
+  margin-left: 20px;
+}
+.project-3 {
+  width: 400px;
+  height: 200px;
+  margin-left: 20px;
+}
+.para {
+  display: flex;
+  height: 200px;
+  width: 60%;
+  background-color: rgb(59, 59, 150);
+  text-align: center;
+  padding: 5% 0 5% 0;
+  margin-left: 20%;
+  margin-right: 20%;
+  border-radius: 10px;
+  position: relative;
+  justify-content: space-evenly;
+
+}
+.one{
+    color:white;
+    font-size: 1.5rem;
+}
+.two {
+  color: white;
+  font-size: 1.25rem;
+}
+.three input{
+  font-size: 1.5rem;
+  padding: 5px;
+ border-radius: 20%;
+}
+.bottom-p {
+  position: relative;
+  top: 50px;
+  justify-content: center;
+  border: 1px solid red;
+}
+.icons li {
+  list-style-type: none;
+  /* position: relative; */
+  top: 100px;
+  padding: 10px;
+ border-radius: 50%;
+ border: 1px solid white;
+}
+.icons {
+  flex-direction: column;
+  background-color: gold;
+  height: 400px;
+  width: 100%;
+  display: flex;
+  margin-top: -100px;
+  align-items: center;
+  justify-content: center;
+}
+.list{
+  display: flex;
+  border: 1px solid red;
+margin-top: 5rem;
+width: 50%;
+ justify-content: space-around;
+
+}
